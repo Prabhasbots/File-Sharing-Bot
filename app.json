@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://ibb.co/FgPVtzw",
+  "repository": "https://t.me/AJ_TVSERIAL",
+  "logo": "https://media-hosting.imagekit.io/4a4aa8c1c7ee44e8/IMG_20250403_100215_293.jpg?Expires=1838262908&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1d98-8YWFgIqtquDGlBh4FqUjAIG5VlhQixpZYCE48aCGfRCRq1EPhrq-VUxZ4HmjNr3q-b2e7syRSzoU1B4GeSO6k3sg0E-7D5T7ajcPIDKJNppU17SPy2x2G2XxG5I93AoHhIKV0954R4Wa0ciIcF35HDCLBVszK4C6QFXNElGHAZTT1y5haGt29xvA4ZnJmRzmWRf9BakRX40CC9rkWNgzSz2JnuZ0ujTVVhomu9HA1~hq4fkEQ4uON-ExYz9oWPXXS7jEGM-5ROOUHRvRuitmv7UJFlhd4P8n5A0YuPs1T7~B-v89Y7j0bZYhqpDaPLACWBI0rOMtBewOrlsDw__",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
