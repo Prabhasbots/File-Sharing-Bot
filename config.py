@@ -11,16 +11,16 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "26910777"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5232142502"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -30,13 +30,13 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001731197871"))
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_PIC = os.environ.get("START_PIC","")
+START_PIC = os.environ.get("START_PIC","https://media-hosting.imagekit.io/4a4aa8c1c7ee44e8/IMG_20250403_100215_293.jpg?Expires=1838262908&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1d98-8YWFgIqtquDGlBh4FqUjAIG5VlhQixpZYCE48aCGfRCRq1EPhrq-VUxZ4HmjNr3q-b2e7syRSzoU1B4GeSO6k3sg0E-7D5T7ajcPIDKJNppU17SPy2x2G2XxG5I93AoHhIKV0954R4Wa0ciIcF35HDCLBVszK4C6QFXNElGHAZTT1y5haGt29xvA4ZnJmRzmWRf9BakRX40CC9rkWNgzSz2JnuZ0ujTVVhomu9HA1~hq4fkEQ4uON-ExYz9oWPXXS7jEGM-5ROOUHRvRuitmv7UJFlhd4P8n5A0YuPs1T7~B-v89Y7j0bZYhqpDaPLACWBI0rOMtBewOrlsDw__")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
@@ -55,7 +55,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 # Auto delete time in seconds.
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
+AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "1800"))
 AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.")
 AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service. ✅")
 
